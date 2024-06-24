@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="image-generator">
+        <div class="content">
+            <h1>AI Image Generator Tool Javascript</h1>
+            <p>Convert your text into an image within a second you are using
+                this Javascript-powered Ai Image Generator Tool.
+                <form action="#" class="generate-form">
+                    <input type="text" class="prompt-input" placeholder="Describe what you want to see" required >
+                    <div class="controls">
+                        <select class="img-quantity">
+                        <option value="1">1 Image</option>
+                        <option value="2">2 Images</option>
+                        <option value="3">3 Images</option>
+                        <option value="4" selected>4 Images</option>
+                    </select>
+                    <button type="submit" class="generate-btn">Generate</button>
+                    </div>
+                </form>
+            </p>
+        </div>
+    </section>
+    <section class="image-gallery">
+        <div class="img-card">
+          <img src="img-1.avif" alt="image" class="img-box"> 
+          <a href="#" class="download-btn"> <img src="download.svg" alt="downlad-icon"> </a>
+        </div>
+        <div class="img-card ">
+            <img src="img-2.avif" alt="image" class="img-box"> 
+            <a href="#" class="download-btn"> <img src="download.svg" alt="downlad-icon"> </a>
+          </div>
+          <div class="img-card">
+            <img src="img-3.avif" alt="image" class="img-box"> 
+            <a href="#" class="download-btn"><img src="download.svg" alt="downlad-icon"> </a>
+          </div>
+          <div class="img-card">
+            <img src="img-4.avif" alt="image" class="img-box"> 
+            <a href="#" class="download-btn"><img src="download.svg" alt="downlad-icon"></a> 
+          </div>
+    </section>
+    <script src="script.js" ></script>
+</body>
+</html>
